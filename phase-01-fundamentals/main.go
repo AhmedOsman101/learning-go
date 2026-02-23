@@ -3,6 +3,8 @@ package main
 import (
 	"errors"
 	"fmt"
+
+	"github.com/AhmedOsman101/learning/phase-01-fundamentals/exercises/exercises"
 )
 
 func square(a int) int {
@@ -59,6 +61,10 @@ func main() {
 	count := idGenerator(1)
 	fmt.Println(count())
 	fmt.Println(count())
+
+	exercises.Greet()
+	fmt.Println(exercises.TempConvertor(0, exercises.Celsius))
+	fmt.Println(exercises.FizzBuzz(15))
 }
 
 // var x int = 5
